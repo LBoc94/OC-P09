@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Nina Carducci - Photographe</title>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
@@ -84,13 +86,20 @@
 			./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-650.webp 650w" /> -->
 
 
-			<img data-gallery-tag="Concert" class="gallery-item" width="465" height="624" 
+			<img data-gallery-tag="Concert" class="gallery-item" alt="Photo d'un public en concert" width="465" height="624" 
 			sizes="(max-width: 650px) 650px, (max-width: 1000px) 1000px,1180px"
 			src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-1920.webp" 
 			srcset="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-1180.webp 1180w,
 			./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-1000.webp 1000w, 
 			./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-650.webp 650w">
 
+
+			<!-- <img data-gallery-tag="Concert" class="gallery-item" width="1224" height="1632"
+			sizes="(max-width: 768px) 375px, 1400px"
+			src="./assets/images/gallery/concerts/aaron-paul.jpg"
+			srcset="./assets/images/gallery/concerts/aaron-paul.jpg 1400w, 
+			./assets/images/gallery/concerts/aaron-paul_tablet.jpg 768w, 
+			./assets/images/gallery/concerts/aaron-paul_mobile.webp 375w"> -->
 
 
 			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/portrait-homme-costume.webp" alt="Portrait d'un homme"/>
@@ -169,11 +178,11 @@
 			<h3>Une question ? Une demande de devis ?</h3>
 			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 			<form action="" method="post">
-				<label>Nom</label>
+				<label for="nom">Nom</label>
 				<input type="text" name="nom" id="nom">
-				<label>Email</label>
+				<label for="email">Email</label>
 				<input type="email" name="email" id="email">
-				<label>Message</label>
+				<label for="message">Message</label>
 				<textarea name="message" id="message" cols="30" rows="10"></textarea>
 				<input type="submit" value="Envoyer"/>
 			</form>
